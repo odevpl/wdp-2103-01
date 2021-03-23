@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './Banner.module.scss';
-//import ReactHtmlParser from 'react-html-parser';
 import PropTypes from 'prop-types';
 
 class Banner extends React.Component {
