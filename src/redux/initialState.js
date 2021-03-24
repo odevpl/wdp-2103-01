@@ -1,11 +1,11 @@
 const initialState = {
   deviceType: '',
   categories: [
-    { id: 'bed', name: 'Bed' },
-    { id: 'chair', name: 'Chair' },
-    { id: 'sofa', name: 'Sofa' },
-    { id: 'table', name: 'Table' },
-    { id: 'dining', name: 'Dining' },
+    { id: 'bed', name: 'Bed', amount: 8 },
+    { id: 'chair', name: 'Chair', amount: 4 },
+    { id: 'sofa', name: 'Sofa', amount: 5 },
+    { id: 'table', name: 'Table', amount: 7 },
+    { id: 'dining', name: 'Dining', amount: 8 },
   ],
   products: [
     {
