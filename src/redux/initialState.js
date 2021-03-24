@@ -336,7 +336,6 @@ const initialState = {
     {
       id: 'brand-5',
       image: 'https://cdn.pixabay.com/photo/2015/05/04/20/23/logo-752921_960_720.png',
-
     },
     {
       id: 'mauris-eu-nunc-1',
@@ -1232,6 +1231,15 @@ const initialState = {
       'https://images.pexels.com/photos/276534/pexels-photo-276534.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
     picture2:
       'https://images.pexels.com/photos/276528/pexels-photo-276528.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+  },
+  bannerData: {
+    descriptionBedroom: 'BEDROOM ',
+    descriptionFurniture: 'FURNITURE',
+    bargain1: 'ALWAYS ',
+    percent: '25%',
+    bargain2: ' OFF OR MORE',
+    home: 'Home',
+    furniture: 'Furniture',
   },
 };
 
