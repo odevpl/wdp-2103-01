@@ -8,6 +8,8 @@ import NewFurniture from '../../features/NewFurniture/NewFurnitureContainer';
 import Feedback from '../../features/Feedback/FeedbackContainer';
 import Brands from '../../features/Brands/BrandsContainer';
 import Promoted from '../../features/Promoted/Promoted';
+import ChatBox from '../../features/ChatBox/ChatBox';
+import Gallery from '../../features/Gallery/Gallery';
 
 const Homepage = () => (
   <div className={styles.root}>
@@ -15,8 +17,10 @@ const Homepage = () => (
     <FeatureBoxes />
     <Deals />
     <NewFurniture />
+    <Gallery />
     <Feedback />
     <Brands />
+    <ChatBox />
   </div>
 );
 
