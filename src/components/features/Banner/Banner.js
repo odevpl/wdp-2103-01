@@ -1,49 +1,41 @@
 import React from 'react';
 import styles from './Banner.module.scss';
-import PropTypes from 'prop-types';
 
-class Banner extends React.Component {
-  render() {
-    const { bannerData } = this.props;
-
-    return (
-      <div className={styles.root}>
-        <div className='container'>
-          <div className={styles.bannerMain}>
-            <div className={styles.bannerTitle}>
-              {bannerData.descriptionBedroom}
-              <span className={styles.furniture}>
-                {bannerData.descriptionFurniture}
-              </span>
-            </div>
-            <div className={styles.bannerSubtitle}>
-              {bannerData.bargain1}
-              <span>{bannerData.percent}</span>
-              {bannerData.bargain2}
-            </div>
-          </div>
-          <div>
-            <ul className={styles.subBanner}>
-              <li className={styles.item}>
-                <a href='#' className={styles.link}>
-                  {bannerData.home}
-                </a>
-              </li>
-              <li className={styles.item}>
-                <a href='#' className={styles.link_active}>
-                  {bannerData.furniture}
-                </a>
-              </li>
-            </ul>
-          </div>
+const Banner = () => (
+  <div className={styles.root}>
+    <div className='container'>
+      <div className={styles.bannerMain}>
+        <div className={styles.bannerTitle}>
+          BEDROOM
+          <span>  </span>
+          <span className={styles.furniture}>
+            FURNITURE
+          </span>
+        </div>
+        <div className={styles.bannerSubtitle}>
+          ALWAYS
+          <span> 25% </span>
+          OFF OR MORE
         </div>
       </div>
-    );
-  }
-}
-
-Banner.propTypes = {
-  bannerData: PropTypes.node,
-};
+      <div>
+        <ul className={styles.subBanner}>
+          <li className={styles.item}>
+            <a href='#' className={styles.link}>
+              Home
+            </a>
+          </li>
+          <li className={styles.item}>
+            <a href='#' className={styles.link_active}>
+              Furniture
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+);
 
 export default Banner;
+
+
