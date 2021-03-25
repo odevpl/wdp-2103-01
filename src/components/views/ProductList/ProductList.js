@@ -1,7 +1,7 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
 import styles from './ProductList.module.scss';
-import Banner from '../../features/Banner/BannerContainer';
+import Banner from '../../features/Banner/Banner.js';
 
 const ProductList = () => (
   <div>
